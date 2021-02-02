@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceRoot}",
+                "C:\\LLVM\\include",
+                "C:\\LLVM\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include",
+                "C:\\LLVM\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "__GNUC__=5",
+                "__cdecl=__attribute__((__cdecl__))"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "${workspaceRoot}",
+                    "C:\\LLVM\\include",
+                    "C:\\LLVM\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include",
+                    "C:\\LLVM\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "compilerPath": "C:/LLVM/bin/clang.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
