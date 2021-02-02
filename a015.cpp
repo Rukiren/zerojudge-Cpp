@@ -4,21 +4,23 @@ using namespace std;
 int main()
 {
     int x, y;
-    cin >> x >> y;
-    int ary[x][y];
-    for (int i = 0; i < x; i++)
+    while (cin >> x >> y)
     {
-        for (int f = 0; f < y; f++)
+        int ary[x][y];
+        for (int i = 0; i < x; i++)
         {
-            cin >> ary[i][f];
+            for (int f = 0; f < y; f++)
+            {
+                cin >> ary[i][f];
+            }
         }
-    }
-    for (int i = 0; i < y; i++)
-    {
-        for (int f = 0; f < x; f++)
+        for (int i = 0; i < y; i++)
         {
-            cout << ary[f][i] << " ";
+            for (int f = 0; f < x; f++)
+            {
+                cout << ary[f][i] << " ";
+            }
+            cout << endl;
         }
-        cout << endl;
     }
 }
