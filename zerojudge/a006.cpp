@@ -2,6 +2,7 @@
 using namespace std;
 
 int main(){
-    int a, b ,c;
-    cin >> a >> b >> c;  
+    int x;
+    cin >> x;
+    cout << x;
 } 
