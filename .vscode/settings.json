@@ -1,7 +1,8 @@
 {
   "terminal.integrated.shell.windows":"C:\\Windows\\Sysnative\\cmd.exe",
   "files.defaultLanguage": "cpp",
-  "editor.formatOnType": false,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
   "editor.snippetSuggestions": "top",
   "code-runner.runInTerminal": true,
   "code-runner.executorMap": {
