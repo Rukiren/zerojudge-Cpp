@@ -12,13 +12,17 @@ int main()
         {
             cin >> b[i];
         }
+        for (int i = 0; i < 4; i++)
+        {
+            cout << b[i] << " ";
+        }
         if (b[1] - b[0] == b[3] - b[2])
         {
-            cout << 2 * b[3] - b[2];
+            cout << 2 * b[3] - b[2] << endl;
         }
         else
         {
-            cout << b[3] * (b[3] / b[2]);
+            cout << b[3] * (b[3] / b[2]) << endl;
         }
     }
 }
