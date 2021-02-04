@@ -9,7 +9,7 @@ int f91(int w)
     }
     else if (w <= 100)
     {
-        f91(w + 11);
+        return 91;
     }
 }
 
@@ -24,7 +24,7 @@ int main()
         }
         if (x < 100)
         {
-            cout << "f91(" << x << ") = " << f91(x) - 1 << endl;
+            cout << "f91(" << x << ") = " << f91(x) << endl;
         }
         else
         {
