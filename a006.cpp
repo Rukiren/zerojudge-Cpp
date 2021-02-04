@@ -12,10 +12,17 @@ int main()
     else
     {
         sqrt(temp);
-        double x1 = 0, x2 = 0;
         if (temp == 0)
         {
-            cout << "Two same roots x=" << -b / (2 * a);
+            temp = -b / (2 * a);
+            if (temp == 0)
+            {
+                cout << "Two same roots x=" << 0;
+            }
+            else
+            {
+                cout << "Two same roots x=" << temp;
+            }
         }
         else if (temp < 0)
         {
